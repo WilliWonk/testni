@@ -1,0 +1,37 @@
+Functional Interface = ima samo jednu metodu;
+
+Moze se oznaciti sa @FunctionalInterface;
+
+Function prihvata vrijednost i vraca drugu vrijednost
+Consumer prihvata vrijednost i ne vraca nista (kao void)
+Predicate
+Supplier
+
+Bi-	Functional Interfaces = uzima dva parametra
+Primitive Type	Functional Interfaces = radi sa primitivnim tipovima
+
+T = Type	(ulazna vrijednost)
+R = Return	(izlazna vrijednost)
+U = 
+E = Element
+K = Key
+V = Value
+
+apply() funkcija pokrece motodu;
+andThen() dodaje drugu metodu;
+
+Package java.util.function = 
+	https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html
+
+4 najvaznija interfejsa:
+	Function
+	Consumer
+	Predicate
+	Supplier
+	
+
+
+
+@Override = ozmacava da je metoda naslijedjena iz klase roditelja
+Override = Überschrieben
+= Überladen
